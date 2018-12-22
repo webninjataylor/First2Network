@@ -5986,3 +5986,38 @@ img.align-left {
     }
 
 }
+
+/******************/
+/**** OVERIDES ****/
+/******************/
+/*
+    - Colors for First2Network
+        - Purple = rgb(111, 88, 109)
+        - Dark Dark Blue = rgb(9, 23, 34)
+        - Blue = rgb(18, 52, 104)
+        - Light Blue = rgb(195, 228, 254)
+        - Neutrals (light to dark)
+            - Medium Brown 1 = rgb(198, 143, 51)
+            - Medium Brown 2 = rgb(167, 132, 70)
+            - Dark Brown = rgb(109, 81, 68)
+            - Black
+*/
+#welcome h2 {
+    border: 3px solid rgb(111, 88, 109);
+}
+.home header#masthead {
+    background-color: rgb(9, 23, 34);
+}
+.home header#masthead #nav ul.menu>li>a,
+.home header#masthead #account ul>li>a,
+#nav ul.menu ul li a {
+    color: rgb(195, 228, 254);
+}
+.home header#masthead #nav ul.menu>li>a:hover,
+.home header#masthead #account ul>li>a:hover,
+#nav ul.menu ul li a:hover {
+    color: #fff;
+}
+#nav ul.menu ul {
+    border-top-color: #fff;
+}
