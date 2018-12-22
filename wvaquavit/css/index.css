@@ -6566,6 +6566,7 @@ img.align-left {
         - Neutrals (light to dark)
             - Medium Brown 1 = rgb(198, 143, 51)
             - Medium Brown 2 = rgb(167, 132, 70)
+                LIGHT = rgb(244, 239, 232)
             - Dark Brown = rgb(109, 81, 68)
             - Black
 */
@@ -6575,6 +6576,11 @@ header#masthead.fixed,
 .home header#masthead,
 .home header#masthead.fixed {
     background-color: rgb(9, 23, 34);
+}
+
+header#masthead.fixed,
+.home header#masthead.fixed {
+    box-shadow: 0 10px 10px 0px rgba(9, 23, 34, .2);
 }
 
 header#masthead h1 a,
@@ -6589,6 +6595,7 @@ header#masthead #account ul>li>a,
 .home header#masthead #nav ul.menu>li>a,
 .home header#masthead #account ul>li>a,
 #nav ul.menu ul li a {
+    background-color: rgb(9, 23, 34);
     color: rgb(195, 228, 254);
 }
 
@@ -6615,6 +6622,10 @@ header#masthead #account ul>li>a:hover,
 #footer ul#legalese li,
 #footer ul#legalese li a {
     color: rgb(195, 228, 254);
+}
+
+#footer {
+    background-color: rgb(244, 239, 232);
 }
 
 #footer ul#legalese li a:hover {
