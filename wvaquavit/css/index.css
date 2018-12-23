@@ -6609,9 +6609,36 @@ header#masthead #account ul>li>a:hover,
     border-top-color: rgb(195, 228, 254);
     box-shadow: 5px 10px 10px 0px rgba(9, 23, 34, .2);
 }
-/******** HERO ********/
+/******** HERO, BREADCRUMBS, AND PAGE HEADERS ********/
 #welcome h2 {
     border: 3px solid rgb(111, 88, 109);
+}
+#sub-masthead,
+#sub-masthead:hover {
+    background-color: rgb(244, 239, 232);
+}
+#sub-masthead #trail,
+#sub-masthead #trail a,
+#sub-masthead #trail .sep,
+#sub-masthead #tab a:before {
+    color: rgb(9, 23, 34);
+}
+#content.com_content .withmenu {
+    padding-top: 4.1em;
+}
+#content.com_content .withmenu .content-header {
+    background-color: rgb(244, 239, 232);
+    height: 4.1em;
+    padding: 0 60px;
+}
+.com_content .content-header h2 {
+    color: rgb(9, 23, 34);
+    font-weight: bold;
+}
+/******** CONTENT AREA ********/
+.aside {
+    background-color: rgb(244, 239, 232);
+    border-radius: 0 10px 10px 0;
 }
 /******** FOOTER ********/
 #footer ul#legalese {
