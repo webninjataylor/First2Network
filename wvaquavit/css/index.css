@@ -6626,12 +6626,15 @@ header#masthead #account ul>li>a:hover,
 #content.com_content .withmenu {
     padding-top: 4.1em;
 }
+#content.com_content .content-header,
+#content.com_support #content-header,
 #content.com_content .withmenu .content-header {
     background-color: rgb(244, 239, 232);
     height: 4.1em;
     padding: 0 60px;
 }
-.com_content .content-header h2 {
+.com_content .content-header h2,
+.com_support #content-header h2 {
     color: rgb(9, 23, 34);
     font-weight: bold;
 }
