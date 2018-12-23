@@ -6610,8 +6610,18 @@ header#masthead #account ul>li>a:hover,
     box-shadow: 5px 10px 10px 0px rgba(9, 23, 34, .2);
 }
 /******** HERO, BREADCRUMBS, AND PAGE HEADERS ********/
-#welcome h2 {
-    border: 3px solid rgb(111, 88, 109);
+#welcome {
+    background-color: rgb(111, 88, 109);
+    border-radius: 0 20px 0 20px;
+    box-shadow: 5px 10px 10px 0px rgba(9, 23, 34, .2);
+    padding: 30px !important;
+}
+#outer-wrap {
+    background-color: rgb(111, 88, 109) !important;
+    /*background: rgb(111, 88, 109) url(/core/templates/kimera/img/triangles.svg) 0 0 !important;*/
+}
+#wrap, #top {
+    background-color: transparent !important;
 }
 #sub-masthead,
 #sub-masthead:hover {
@@ -6641,7 +6651,7 @@ header#masthead #account ul>li>a:hover,
 /******** CONTENT AREA ********/
 .aside {
     background-color: rgb(244, 239, 232);
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 20px 20px 0;
 }
 /******** FOOTER ********/
 #footer ul#legalese {
