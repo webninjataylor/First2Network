@@ -6611,14 +6611,21 @@ header#masthead #account ul>li>a:hover,
 }
 /******** HERO, BREADCRUMBS, AND PAGE HEADERS ********/
 #welcome {
-    background-color: rgb(111, 88, 109);
+    background-color: rgb(18, 52, 104);
     border-radius: 0 20px 0 20px;
     box-shadow: 5px 10px 10px 0px rgba(9, 23, 34, .2);
     padding: 30px !important;
 }
-#outer-wrap {
-    background-color: rgb(111, 88, 109) !important;
-    /*background: rgb(111, 88, 109) url(/core/templates/kimera/img/triangles.svg) 0 0 !important;*/
+#splash {
+    background: url(/app/site/media/people.jpg) 0 0;
+    background-size: contain;
+    /*background: rgb(111, 88, 109) url(/core/templates/kimera/img/triangles.svg) 0 0 !important;   492 x 252 */
+    /*
+        1440 x 407
+        gettyimages-941674592-170667a = side lines
+        gettyimages-1064000154-170667a = people
+        gettyimages-1013942164-170667a = blue
+    */
 }
 #wrap, #top {
     background-color: transparent !important;
