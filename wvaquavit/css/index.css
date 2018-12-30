@@ -6568,6 +6568,13 @@ img.align-left {
             - Black
 */
 /******** HEADER AND MENU ********/
+#logo-f2n {
+    transition: 1s;
+    width: 100px;
+}
+header#masthead.fixed #logo-f2n {
+    width: 35px;
+}
 header#masthead,
 header#masthead.fixed,
 .home header#masthead,
@@ -6583,6 +6590,14 @@ header#masthead.fixed h1 a,
 .home header#masthead h1 a,
 .home header#masthead.fixed h1 a {
     color: rgb(111, 88, 109);
+}
+header#masthead #nav ul.menu {
+    position: relative;
+    top: 58px;
+    transition: 1s;
+}
+header#masthead.fixed #nav ul.menu {
+    top: 0;
 }
 header#masthead #nav ul.menu>li>a,
 header#masthead #account ul>li>a,
@@ -6617,7 +6632,7 @@ header#masthead #account ul>li>a:hover,
     padding: 30px !important;
 }
 #splash {
-    background: url(/app/site/media/people.jpg) 0 0;
+    background: url(/app/site/media/triangles.jpg) 0 0;
     background-size: contain;
     /*background: rgb(111, 88, 109) url(/core/templates/kimera/img/triangles.svg) 0 0 !important;   492 x 252 */
     /*

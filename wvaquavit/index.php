@@ -97,7 +97,7 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 
               <h1>
                 <a href="<?php echo Request::root(); ?>" title="<?php echo Config::get('sitename'); ?>">
-                  <span><img alt="First2Network" src="/app/site/media/logo_first2network.png" style="width:35px;height:29px;" title="First2Network" /></span>
+                  <span><img id="logo-f2n" alt="First2Network" src="/app/site/media/logo_first2network.png" title="First2Network" /></span>
                 </a>
               </h1>
 
