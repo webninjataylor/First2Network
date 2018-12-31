@@ -6662,6 +6662,7 @@ header#masthead #account ul>li>a:hover,
 #content.com_support #content-header,
 #content.com_content .withmenu .content-header {
     background-color: rgb(244, 239, 232);
+    color: rgb(9, 23, 34);
     height: 4.1em;
     padding: 0 60px;
 }
@@ -6669,6 +6670,23 @@ header#masthead #account ul>li>a:hover,
 .com_support #content-header h2 {
     color: rgb(9, 23, 34);
     font-weight: bold;
+}
+header.content-header,
+#content-header {
+    background-color: rgb(244, 239, 232);
+    color: rgb(9, 23, 34);
+}
+header.content-header h2,
+#content-header h2,
+header.content-header a,
+#content-header a,
+header.content-header a:hover,
+#content-header a:hover,
+header.content-header #profile-privacy:before,
+#content-header #profile-privacy:before,
+header.content-header a#profile-privacy:hover,
+#content-header a#profile-privacy:hover {
+    color: rgb(9, 23, 34);
 }
 /******** CONTENT AREA ********/
 .aside {
