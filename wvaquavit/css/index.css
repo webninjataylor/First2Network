@@ -6568,10 +6568,11 @@ img.align-left {
             - Black
 */
 /******** HEADER AND MENU ********/
-#logo-f2n {
+.home header#masthead #logo-f2n {
     transition: 1s;
     width: 100px;
 }
+header#masthead #logo-f2n,
 header#masthead.fixed #logo-f2n {
     width: 35px;
 }
@@ -6591,7 +6592,7 @@ header#masthead.fixed h1 a,
 .home header#masthead.fixed h1 a {
     color: rgb(111, 88, 109);
 }
-header#masthead #nav ul.menu {
+.home header#masthead #nav ul.menu {
     position: relative;
     top: 58px;
     transition: 1s;
@@ -6685,8 +6686,13 @@ header.content-header a:hover,
 header.content-header #profile-privacy:before,
 #content-header #profile-privacy:before,
 header.content-header a#profile-privacy:hover,
-#content-header a#profile-privacy:hover {
-    color: rgb(9, 23, 34);
+#content-header a#profile-privacy:hover,
+#profile-privacy {
+    color: rgb(9, 23, 34) !important;
+}
+#page_options .btn {
+    border-color: rgb(9, 23, 34) !important;
+    color: rgb(9, 23, 34) !important;
 }
 /******** CONTENT AREA ********/
 .aside {
